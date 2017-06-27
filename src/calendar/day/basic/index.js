@@ -70,8 +70,10 @@ class Day extends Component {
     }
     return (
       <TouchableOpacity style={containerStyle} onPress={this.onDayPress}>
-        <Text style={textStyle}>{String(this.props.children)}</Text>
-        {dot}
+        <View>
+          <Text style={textStyle}>{String(this.props.children)}</Text>
+          {dot}
+        </View>
       </TouchableOpacity>
     );
   }
