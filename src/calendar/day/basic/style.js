@@ -7,7 +7,8 @@ export default function styleConstructor(theme={}) {
     base: {
       width: 32,
       height: 32,
-      alignItems: 'center'
+      alignItems: 'center',
+      justifyContent: 'center',
     },
     text: {
       marginTop: 4,
